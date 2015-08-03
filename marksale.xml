@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - Marksale</name>
+	<author>straightup Webstudio</author>
+	<creationDate>Juli 2015</creationDate>
+	<copyright>Copyright (C) 2015. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>l.gerson@straightup-webstudio.de</authorEmail>
+	<authorUrl>www.straightup-webstudio.de</authorUrl>
+	<version>1.0</version>
+	<description>Marksale</description>
+	<files>
+		<filename plugin="marksale">marksale.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="marksale_id" type="text"
+					description="Geben Sie die ID ein, die das Plugin im HTML Code hinterlassen soll"
+					label="ID"					
+				/>
+			</fieldset>
+ 
+		</fields>
+	</config>
+</extension>
